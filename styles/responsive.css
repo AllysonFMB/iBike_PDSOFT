@@ -15,6 +15,11 @@
         align-items: center;
         width: 200px;
     }
+    #page-home main .content3 a {
+        align-items: center;
+        width: 200px;
+        
+    }
 }
 
 @media (min-width: 1680px) {
