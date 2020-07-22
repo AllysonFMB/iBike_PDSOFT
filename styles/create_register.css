@@ -54,7 +54,7 @@ form {
 }
 
 form h1{
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
 
 }
@@ -63,6 +63,7 @@ form fieldset {
     margin-top: 15px;
 
     border: 0;
+    
 }
 
 form legend{
@@ -70,19 +71,20 @@ form legend{
 }
 
 form legend h2{
-    font-size: 24px;
+    font-size: 20px;
 }
 
-form .field {
+form .field,
+form .field-tec {
     flex:1;
     display: flex;
     flex-direction: column;
 
-    margin-bottom: 24px;
+    margin-bottom: 15px;
 }
 
 
-form .field-group{
+form .field-group {
     display: flex;
 
 }
@@ -110,23 +112,51 @@ form select {
 }
 
 form label{
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 8px;
 }
+
 
 form .field-group .field + .field{
     margin-left: 24px;
 }
 
-form .content{
+form .field-group-p {
+    margin-right: 300px;
+
+}
+
+form .content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
+
 form .content a{
     color: var(--title-color);  
 }
 
+form .field-tec{
+    margin-top: 30px;
+}
+
+form a{
+    position: absolute;
+    font-weight: 400;
+    display: flex;
+    font-size: 16px;
+    color: var(--title-color);
+    align-items: center;
+    justify-content: left;
+}
+form a span{
+    margin-right: 10px;
+    background-image: url('../imagens/image.svg');
+    
+    width: 22px;
+    height: 22px;
+
+}
 
 form button{
     width: 350px;
@@ -143,7 +173,7 @@ form button{
     justify-content: center;
     
     display: flex;
-    margin: 20px auto; 
+    margin: 50px auto; 
 
 }
 
